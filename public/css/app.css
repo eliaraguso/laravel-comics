@@ -6,14 +6,38 @@
 
 .header-top {
   background-color: #0282f9;
+  padding: 10px 0;
 }
 .header-top .container {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .header-top .container a {
   text-decoration: none;
   color: white;
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+.header-bottom .container {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-bottom .container nav li {
+  display: inline-block;
+}
+.header-bottom .container nav li a {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 10px;
+}
+.header-bottom .container input {
+  border: none;
+  border-bottom: 2px solid #0282f9;
 }
 
 body {
