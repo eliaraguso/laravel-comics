@@ -2,6 +2,7 @@
 
 @section('pageContent')
 <section>
-    <h1>MAIN</h1>
+    <h1>main</h1>
+    @dd($fumetti);
 </section>
 @endsection
