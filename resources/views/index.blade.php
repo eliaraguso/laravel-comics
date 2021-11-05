@@ -3,6 +3,6 @@
 @section('pageContent')
 <section>
     <h1>main</h1>
-    @dd($fumetti);
+    {{-- @dd($fumetti); --}}
 </section>
 @endsection

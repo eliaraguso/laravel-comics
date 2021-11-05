@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $data = config("comics");
-    
+
     $tmp = [
         "fumetti" => $data
     ];

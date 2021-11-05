@@ -1,0 +1,13 @@
+// Header Top
+.header-top {
+    background-color: #0282f9;
+    .container {
+        display: flex;
+        justify-content: end;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    
+}
